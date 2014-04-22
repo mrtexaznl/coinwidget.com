@@ -50,6 +50,9 @@ THE SOFTWARE.
 					case 'litecoin': 
 						$response = get_litecoin($address);
 						break;
+					case 'mediterraneancoin': 
+						$response = get_mediterraneancoin($address);
+						break;
 				}
 				$responses[$instance] = $response;
 			}
@@ -83,6 +86,21 @@ THE SOFTWARE.
 		  	return $return;
 		}
 	}
+
+	function get_mediterraneancoin($address) {
+		$return = array();
+		$data = get_request('http://explorer.mediterraneancoin.org/address/'.$address);
+		if (!empty($data) 
+		  && strstr($data, 'Transactions in: ') 
+		  && strstr($data, 'Received: ')) {
+		  	$return += array(
+				'count' => (int) parse($data,'Transactions in: ','<br />'),
+				'amount' => (float) parse($data,'Received: ','<br />')
+			);
+		  	return $return;
+		}
+	}
+
 
 	function get_request($url,$timeout=4) {
 		if (function_exists('curl_version')) {
