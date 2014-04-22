@@ -15,6 +15,7 @@ Donations are welcome and will go towards further development of this project as
 
 	BTC: 122MeuyZpYz4GSHNrF98e6dnQCXZfHJeGS
 	LTC: LY1L6M6yG26b4sRkLv4BbkmHhPn8GR5fFm
+	MED: MeGbEre5ZyD3ug946sPuq5C6yy8ZPriwhf
 
 *Thank you for your support and generosity!*
 
