@@ -16,6 +16,7 @@ well as other crypto related projects. Use the wallet addresses below to donate.
 
 	BTC: 122MeuyZpYz4GSHNrF98e6dnQCXZfHJeGS
 	LTC: LY1L6M6yG26b4sRkLv4BbkmHhPn8GR5fFm
+	MED: MeGbEre5ZyD3ug946sPuq5C6yy8ZPriwhf
 
 Thank you for your support and generosity!
 
