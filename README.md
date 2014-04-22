@@ -22,7 +22,7 @@ Donations are welcome and will go towards further development of this project as
 
 Installation
 ==============
-A. Grab the latest version from GitHub: https://github.com/scottycc/coinwidget.com
+A. Grab the latest version from GitHub: https://github.com/mrtexaznl/coinwidget.com
 
 B. Open **widget/coin.js** and find:
 
