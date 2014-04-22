@@ -1,7 +1,7 @@
 coinwidget.com
 ==============
 
-*The Bitcoin and Litecoin Donation Button*
+*The Bitcoin, Litecoin and Mediterraneancoin Donation Button*
 
 Visit http://coinwidget.com/ for full documentation, demo, and a link code wizard.
 
